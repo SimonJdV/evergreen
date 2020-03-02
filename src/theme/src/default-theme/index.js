@@ -86,8 +86,6 @@ import {
   getTextColor
 } from './theme-helpers'
 
-export { memoizeClassName } from './utils'
-
 export default {
   // Foundational Styles.
   colors,
