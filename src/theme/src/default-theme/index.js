@@ -86,7 +86,11 @@ import {
   getTextColor
 } from './theme-helpers'
 
+import { memoizeClassName } from './utils'
+
 export default {
+  memoizeClassName,
+  
   // Foundational Styles.
   colors,
   elevations,
