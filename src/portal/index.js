@@ -1,1 +1,1 @@
-export { default as Portal } from './src/Portal'
+export { default as Portal, HasPopupContext, WidgetContext } from './src/Portal'
