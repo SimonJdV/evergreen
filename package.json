@@ -27,7 +27,7 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "prepare": "npm run build",
+    "prepare": "yarn run build",
     "test": "xo && ava",
     "prepublishOnly": "rm -rf esm commonjs umd && yarn build",
     "dev": "start-storybook -p 6006",
