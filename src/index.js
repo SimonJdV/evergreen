@@ -60,6 +60,7 @@ export { SidebarTab, Tab, Tablist, TabNavigation } from './tabs'
 export { TagInput } from './tag-input'
 export { TextInput, TextInputField } from './text-input'
 export {
+  memoizeClassName,
   ThemeContext,
   ThemeProvider,
   ThemeConsumer,
@@ -67,6 +68,7 @@ export {
   useTheme,
   defaultTheme
 } from './theme'
+export { Themer } from './themer'
 export { Textarea } from './textarea'
 export { toaster } from './toaster'
 export { Tooltip } from './tooltip'
